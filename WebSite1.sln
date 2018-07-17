@@ -1,0 +1,113 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2042
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WebSite1(1)", "WebSite1\", "{B7C65311-1D22-48B6-A5CE-15018944E67A}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_60373"
+		Debug.AspNetCompiler.PhysicalPath = "WebSite1\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60373\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_60373"
+		Release.AspNetCompiler.PhysicalPath = "WebSite1\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60373\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "60373"
+		SlnRelativePath = "WebSite1\"
+		DefaultWebSiteLanguage = "Visual Basic"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "FormationHtmlCssJs", "FormationHtmlCssJs\", "{C9F8B0D6-484F-434E-8FC5-A4FCB99943AA}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_57226"
+		Debug.AspNetCompiler.PhysicalPath = "FormationHtmlCssJs\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57226\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_57226"
+		Release.AspNetCompiler.PhysicalPath = "FormationHtmlCssJs\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57226\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "57226"
+		SlnRelativePath = "FormationHtmlCssJs\"
+		DefaultWebSiteLanguage = "Visual Basic"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Formulaire", "Formulaire\", "{8C058E30-704D-43C3-A947-6612DE311A8D}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_58889"
+		Debug.AspNetCompiler.PhysicalPath = "Formulaire\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58889\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_58889"
+		Release.AspNetCompiler.PhysicalPath = "Formulaire\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_58889\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "58889"
+		SlnRelativePath = "Formulaire\"
+		DefaultWebSiteLanguage = "Visual Basic"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Slider", "Slider\", "{BF41B578-D4D0-4BA7-9E17-09783AA4B3B2}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_63358"
+		Debug.AspNetCompiler.PhysicalPath = "Slider\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63358\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_63358"
+		Release.AspNetCompiler.PhysicalPath = "Slider\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63358\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "63358"
+		DefaultWebSiteLanguage = "Visual Basic"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7C65311-1D22-48B6-A5CE-15018944E67A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7C65311-1D22-48B6-A5CE-15018944E67A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9F8B0D6-484F-434E-8FC5-A4FCB99943AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9F8B0D6-484F-434E-8FC5-A4FCB99943AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C058E30-704D-43C3-A947-6612DE311A8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C058E30-704D-43C3-A947-6612DE311A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF41B578-D4D0-4BA7-9E17-09783AA4B3B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF41B578-D4D0-4BA7-9E17-09783AA4B3B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE208E51-2E94-4305-97A4-7594574150ED}
+	EndGlobalSection
+EndGlobal

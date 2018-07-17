@@ -1,0 +1,33 @@
+﻿* {
+    margin: 10px;
+    padding: 0;
+}
+
+body {
+}
+
+.header {
+    padding-top: 10px;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+
+.droite {
+    float: right;
+}
+
+.gauche {
+    float: left;
+    padding-left: 20px;
+}
+
+input {
+    margin-top: 20px;
+    padding: 20px 13px 12px 6px;
+}
+
+.inputCheck {
+    visibility: hidden;
+    color: forestgreen;
+}

@@ -1,0 +1,19 @@
+<h1>Mon étape 2</h1>
+<form id="form2" action="" method="post">
+    <select name="metier" id="metier">
+        <option value="1">Développeur web</option>
+        <option value="2">Infographiste</option>
+    </select>
+    <span id="infoMessage"></span>
+    <input type="submit" value="Étape suivante" />
+</form>
+<script type="text/javascript">
+    $('form select').on('change', function () {
+        if (this.value == 1)
+            var message = 'Bravo, vous faites des trucs fonctionnels';
+
+        else
+            var message = 'Bravo, vous faites des trucs jolis';
+        $('#infoMessage').html(message);
+    })
+</script>

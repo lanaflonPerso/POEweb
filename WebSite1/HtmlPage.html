@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta charset="utf-8" />
+    <title>App3</title>
+    <link href="StyleSheet.css" rel="stylesheet" />
+    <script src="JavaScript.js"></script>
+</head>
+<body>
+    <div class="header">
+        <div class="gauche">Le contenu s'affiche ici.</div>
+        <div class="droite">ou alors ici</div>
+    </div>
+    <br />
+
+    <span id="affichage"></span>
+    <input id="Button1" type="button" value="somme" onclick="display(sum())" />
+    <input id="Button2" type="button" value="min" onclick="display(mini())" />
+    <input id="Button3" type="button" value="max" onclick="display(maxi())" />
+    <input id="Button4" type="button" value="mean" onclick="display(moyenne())" />
+    <input id="Button5" type="button" value="prime" onclick="display(getPrime())" />
+    <form id="myForm">
+        <div>
+            <input id="Text1" type="text" oninput="checktitle()" /> <p id="inputCheck" class="inputCheck"> Format non correct</p>
+        </div>
+        <div>
+            <input id="Text2" type="text" />
+        </div>
+        <div>
+            <input id="ginette" type="button" value="C'est bon"  />
+        </div>
+    </form>
+</body>
+</html>
