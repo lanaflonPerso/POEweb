@@ -87,7 +87,30 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Slider", "Slider\", "{BF41B
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "63358"
+		SlnRelativePath = "Slider\"
 		DefaultWebSiteLanguage = "Visual Basic"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "JeuJS", "JeuJS\", "{D0C46EBC-91DB-4A15-A52F-283592287A26}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_56262"
+		Debug.AspNetCompiler.PhysicalPath = "JeuJS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56262\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_56262"
+		Release.AspNetCompiler.PhysicalPath = "JeuJS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56262\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "56262"
+		SlnRelativePath = "JeuJS\"
+		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
 Global
@@ -103,6 +126,8 @@ Global
 		{8C058E30-704D-43C3-A947-6612DE311A8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF41B578-D4D0-4BA7-9E17-09783AA4B3B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BF41B578-D4D0-4BA7-9E17-09783AA4B3B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0C46EBC-91DB-4A15-A52F-283592287A26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0C46EBC-91DB-4A15-A52F-283592287A26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
