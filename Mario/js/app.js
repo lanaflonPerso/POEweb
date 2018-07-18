@@ -1,7 +1,7 @@
 ﻿var inJump = false;
 
 var Player = {
-  
+
     jump: function () {
         if (inJump === false) {
             inJump = true;
@@ -14,11 +14,25 @@ var Player = {
     }
 }
 
-
 var Scroll = {
     scroll: function (div, temps) {
         $(div).animate({ 'left': '-100%' }, temps, "linear", function () {
             $(div).animate({ 'left': '101%' }, 0, function () { Scroll.scroll(div, temps) })
+        });
+    }
+}
+
+
+
+var ScrollCos = {
+    rand: 0,
+    scroll: function (div, temps) {
+        var self = this;
+        self.rand = 50+ Math.random() * 500;
+        $(div).animate({ 'bottom': self.rand }, temps / 5, function () {
+            $(div).animate({ 'left': '-100%' }, temps, "linear", function () {
+                $(div).animate({ 'left': '101%' }, 0, function () { ScrollCos.scroll(div, temps) })
+            });
         });
     }
 }
@@ -36,8 +50,10 @@ var score = {
 }
 
 var Collision = {
-
+    rand: 0,
     check: function (joueur, item) {
+        var self = this;
+        self.rand = 100 + Math.random() * 100;
         var player = {
             x: parseFloat($(joueur).css('left')),
             y: parseFloat($(joueur).css('top')),
@@ -56,14 +72,18 @@ var Collision = {
             piece.y < player.y + player.height &&
             piece.height + piece.y > player.y) {
             $(item).stop();
-            $(item).css({ 'left': '101%' });
+            $(item).css({ 'left': self.rand + '%' });
             if (item == '#piece') {
                 score.increment();
+                Scroll.scroll(item, 4000);
+            }
+            else if (item == '#carapace') {
+                score.decrement();
                 Scroll.scroll(item, 3000);
             }
             else {
                 score.decrement();
-                Scroll.scroll(item, 2000);
+                ScrollCos.scroll(item, 5000);
             }
             if (score.value <= 0) {
                 score.value = 0;
@@ -88,7 +108,9 @@ var decor = {
 
 decor.move('#sky');
 decor.move('#road');
-Scroll.scroll('#piece', 3000);
-Scroll.scroll('#carapace', 2000);
+Scroll.scroll('#piece', 4000);
+Scroll.scroll('#carapace', 3000);
+ScrollCos.scroll('#caravolante', 5000);
 setInterval(function () { Collision.check('#player', '#piece') }, 10);
 setInterval(function () { Collision.check('#player', '#carapace') }, 10);
+setInterval(function () { Collision.check('#player', '#caravolante') }, 10);
