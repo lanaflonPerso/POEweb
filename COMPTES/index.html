@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Mon compte en banque</title>
+        <link rel="stylesheet" type="text/css" href="styles.css" />
+    </head>
+    <body>
+        <h1>Comptes de Matthieu Requenna</h1>
+        <div id="cptCourant" class="grid_50 volet voletUn">
+            <ul id="cptCourantList">
+            </ul>
+            <div id="cptCourantTotal" class="total">1000€</div>
+            <form action="#" onsubmit="return false;">
+                <input id="cptCourantDoTransfert" type="text" placeholder="Veuillez entrer un montant" />
+                <input id="cptCourantGo" type="submit" value="OK" />
+            </form>
+        </div>
+        
+        <div id="cptA" class="grid_50 volet voletDeux">
+            <ul id="cptAList">
+            </ul>
+            <div id="cptATotal" class="total">500€</div>
+            <form action="#" onsubmit="return false;">
+                <input id="cptADoTransfert" type="text" placeholder="Veuillez entrer un montant" />
+                <input id="cptAGo" type="submit" value="OK" />
+            </form>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="app.js"></script>
+    </body>
+</html>

@@ -113,6 +113,72 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "JeuJS", "JeuJS\", "{D0C46EB
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ExerciceCss", "ExerciceCss\", "{4E201606-B2C9-4294-873D-17168B56ED0C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_59409"
+		Debug.AspNetCompiler.PhysicalPath = "ExerciceCss\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59409\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_59409"
+		Release.AspNetCompiler.PhysicalPath = "ExerciceCss\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_59409\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "59409"
+		SlnRelativePath = "ExerciceCss\"
+		DefaultWebSiteLanguage = "Visual Basic"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ExerciceHtmlJS", "ExerciceHtmlJS\", "{67C81E5F-AC62-43D4-BD09-DFD6F9373395}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_52694"
+		Debug.AspNetCompiler.PhysicalPath = "ExerciceHtmlJS\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52694\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_52694"
+		Release.AspNetCompiler.PhysicalPath = "ExerciceHtmlJS\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_52694\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "52694"
+		SlnRelativePath = "ExerciceHtmlJS\"
+		DefaultWebSiteLanguage = "Visual Basic"
+	EndProjectSection
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Mario", "Mario\", "{F3DEADEB-35E0-4FC0-BF06-15F8B3FDB050}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_60339"
+		Debug.AspNetCompiler.PhysicalPath = "Mario\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60339\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_60339"
+		Release.AspNetCompiler.PhysicalPath = "Mario\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_60339\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "60339"
+		SlnRelativePath = "Mario\"
+		DefaultWebSiteLanguage = "Visual Basic"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -128,6 +194,12 @@ Global
 		{BF41B578-D4D0-4BA7-9E17-09783AA4B3B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0C46EBC-91DB-4A15-A52F-283592287A26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D0C46EBC-91DB-4A15-A52F-283592287A26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E201606-B2C9-4294-873D-17168B56ED0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E201606-B2C9-4294-873D-17168B56ED0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67C81E5F-AC62-43D4-BD09-DFD6F9373395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67C81E5F-AC62-43D4-BD09-DFD6F9373395}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3DEADEB-35E0-4FC0-BF06-15F8B3FDB050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3DEADEB-35E0-4FC0-BF06-15F8B3FDB050}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
