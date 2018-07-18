@@ -1,10 +1,19 @@
-﻿var Player = {
+﻿var inJump = false;
+
+var Player = {
+  
     jump: function () {
-        $('#player').animate({ 'bottom': '20%' }, 400, function () {
-            $('#player').animate({ 'bottom': '15px' }, 400)
-        });
+        if (inJump === false) {
+            inJump = true;
+            $('#player').animate({ 'bottom': '20%' }, 400, function () {
+                $('#player').animate({ 'bottom': '15px' }, 400, function () {
+                    inJump = false;
+                });
+            });
+        }
     }
 }
+
 
 var Scroll = {
     scroll: function (div, temps) {
@@ -56,7 +65,7 @@ var Collision = {
                 score.decrement();
                 Scroll.scroll(item, 2000);
             }
-            if (score.value <=0 ) {
+            if (score.value <= 0) {
                 score.value = 0;
             }
             $('#score').text(score.value);
