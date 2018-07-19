@@ -179,6 +179,28 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Mario", "Mario\", "{F3DEADE
 		DefaultWebSiteLanguage = "Visual Basic"
 	EndProjectSection
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "chat", "chat\", "{D41DB9D2-B0EF-4BD3-A91D-77007425AD4A}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_57801"
+		Debug.AspNetCompiler.PhysicalPath = "chat\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57801\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_57801"
+		Release.AspNetCompiler.PhysicalPath = "chat\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_57801\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "57801"
+		SlnRelativePath = "chat\"
+		DefaultWebSiteLanguage = "Visual Basic"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -200,6 +222,8 @@ Global
 		{67C81E5F-AC62-43D4-BD09-DFD6F9373395}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3DEADEB-35E0-4FC0-BF06-15F8B3FDB050}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F3DEADEB-35E0-4FC0-BF06-15F8B3FDB050}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D41DB9D2-B0EF-4BD3-A91D-77007425AD4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D41DB9D2-B0EF-4BD3-A91D-77007425AD4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

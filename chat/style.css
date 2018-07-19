@@ -1,0 +1,170 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #E1E1E1;
+}
+
+#wrapper {
+    width: calc(100vw - 25px);
+    height: calc(100vh - 25px);
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+    display: flex;
+    flex-flow: row;
+    overflow: hidden;
+}
+
+#colonneUsers {
+    width: 20%;
+    background-color: rgb(22, 25, 23);
+    color: white;
+}
+
+    #colonneUsers h1 {
+        padding: 20px;
+        font-size: 20px;
+    }
+
+#listMessages {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-flow: wrap;
+}
+
+#allMessages {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    height: 90%;
+    overflow: auto;
+}
+
+    #allMessages::-webkit-scrollbar {
+        width: 2%;
+    }
+    #allMessages::-webkit-scrollbar-track {
+        border-radius: 10px;
+    }
+
+    #allMessages::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+    }
+
+    #allMessages .message {
+        width: 90%;
+        height: 10vh;
+        min-height: 100px;
+        margin: 5vh;
+        background-color: #EEE;
+        border-radius: 5px;
+    }
+
+        #allMessages .message h1 {
+            font-size: 18px;
+        }
+
+
+
+#decoButton {
+    z-index
+    font-size: 10px;
+    height: 15px;
+    position: absolute;
+    top: 3%;
+    right: 3%;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: tomato;
+}
+
+#userList {
+    list-style: none;
+    padding-left: 10px;
+}
+
+#inputMessage {
+    height: 50px;
+    width: 100%;
+    align-self: flex-end;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+    #inputMessage form {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #inputMessage input {
+        align-self: center;
+        border-radius: 8px;
+        border: 3px solid rgba(77,96,186,0.5);
+        box-shadow: none;
+        width: 98%;
+        height: 75%;
+        font-size: 18px;
+        margin: 2px;
+    }
+
+
+
+/*IDENTIFICATION*/
+
+
+
+#wrapperId {
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px rgba(0,0,0,0.5);
+    align-items: center;
+    text-align: left;
+    padding: 20px;
+}
+
+    #wrapperId h1 {
+        font-size: 2em;
+    }
+
+    #wrapperId form {
+        width: 100%;
+        text-align: center;
+    }
+
+    #wrapperId #submit {
+        border-radius: 100%;
+        width: 50px;
+        height: 50px;
+        background-color: #EEE;
+        color: white;
+        background-color: black;
+        border: none;
+    }
+
+    #wrapperId #pseudoInput {
+        font-size: 1em;
+        font-weight: bold;
+        text-transform: capitalize;
+        border: none;
+        margin: 10px;
+        width: 100%;
+        height: 50px;
+    }
