@@ -8,11 +8,10 @@
             url: 'index.html',
             dataType: 'html',
             success: function (r, s) {
-                $('body').html(r);
+                $('body').html(this.r);
                 $('#userList').append('<li> ' + self.username + '</li>');
             }
         });
-        
     }
 }
 
