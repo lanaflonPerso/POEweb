@@ -1,0 +1,67 @@
+﻿body, h1, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+#monSliderParent {
+    background-color: red;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    width : 100%;
+}
+
+#monSliderContent {
+    background-color: green;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5000%;
+    height: 100%;
+    display: flex;
+    flex-flow: wrap;
+    transition: 0.5s;
+}
+
+#monSliderArrows {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+#monSliderSlide2 {
+    background-color: coral;
+}
+
+#monSliderSlide3 {
+    background-color: fuchsia;
+}
+
+#monSliderSlide4 {
+    background-color: lime;
+}
+
+#monSliderSlide5 {
+    background-color: chartreuse;
+}
+
+div.slide {
+    width: 2%;
+}
+.slide p {
+    width: 100%;
+    position: relative;
+    top: 0px;
+    background-color : rgba(8, 8, 8, 0.77);
+    color: white;
+}
